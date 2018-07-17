@@ -84,6 +84,8 @@ Implementation
 We implement all the subword-level models using Chainer deep learning framework.
 All the code are available in the Vecto_ project.
 
+.. _Vecto: /
+
 Sample script for training Japanese word-level word embeddings (SG):
 
 :code:`python3 -m vecto.embeddings.train_word2vec --path_corpus $path_corpus --path_out $path_out --subword none --language jap`
